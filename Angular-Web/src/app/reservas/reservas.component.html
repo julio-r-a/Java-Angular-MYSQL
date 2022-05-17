@@ -1,0 +1,125 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+      <img src="assets/log.png" width="35" height="35" class="d-inline-block align-top" alt="">
+      SÁTIRA
+  </a>
+</nav>
+
+<div class="container">
+  <div class="row">
+      <div class="col my-auto m-8">
+          <br />
+          <img src="assets/log.png" class="rounded-circle" alt="..." width="400px" height="400px">
+          <br />
+      </div>                
+      <div class="col bg-dark text-light p-4 m-4" style="border-radius: 25px;">
+          <form action="https://formsubmit.co/ramirez.arevalo5849@gmail.com" method="POST">
+              <div class="mb-2">
+                  <h1>Reservas</h1>
+                  <label id="local1" for="locales" class="form-label">Local:</label>
+                  <select id="local" name="locales">
+                      <option value="" ></option>
+                      <option value="barranco">Barranco</option>
+                      <option value="cieneguilla" >Cieneguilla</option>
+                      <option value="La_Molina" >La_Molina</option>
+                      <option value="Lince" >Lince</option>
+                      <option value="Miraflores" >Miraflores</option>
+                      <option value="San_Borja" >San_Borja</option>
+                  </select>
+              </div>
+              <div class="mb-2">
+                  <label id="nombre1" for="nombre" class="form-label">Nombre:</label>
+                  <input  id="nombre" name="nombre" type="text" class="form-control" />
+              </div>
+              <div class="mb-2">
+                  <label id="personas1" for="peronas" class="form-label">Numero de personas:</label>
+                  <input id="personas" name="numerop" type="text" class="form-control"  aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-2">
+                  <label id="correo1" for="correo" class="form-label">Correo:</label>
+                  <input id="correo" name="correo" type="text" class="form-control" />
+              </div>
+              
+              <div class="mb-2">
+                  <label id="dia1" for="dia" class="form-label">Dia:</label>
+                  <select id="dia" name="dia">
+                      <option value="" ></option>
+                      <option value="1" >1</option>
+                      <option value="2" >2</option>
+                      <option value="3" >3</option>
+                      <option value="4" >4</option>
+                      <option value="5" >5</option>
+                      <option value="6" >6</option>
+                      <option value="7" >7</option>
+                      <option value="8" >8</option>
+                      <option value="9" >9</option>
+                      <option value="10" >10</option>
+                      <option value="11" >11</option>
+                      <option value="12" >12</option>
+                      <option value="13" >13</option>
+                      <option value="14" >14</option>
+                      <option value="15" >15</option>
+                      <option value="16" >16</option>
+                      <option value="17" >17</option>
+                      <option value="18" >18</option>
+                      <option value="19" >19</option>
+                      <option value="20" >20</option>
+                      <option value="21" >21</option>
+                      <option value="22" >22</option>
+                      <option value="23" >23</option>
+                      <option value="24" >24</option>
+                      <option value="25" >25</option>
+                      <option value="26" >26</option>
+                      <option value="27" >27</option>
+                      <option value="28" >28</option>
+                      <option value="29" >29</option>
+                      <option value="30" >30</option>
+                      <option value="31" >31</option>
+                  </select><br>
+                  <label id="mes1" for="mes" class="form-label">Mes:</label>
+                  <select id="mes" name="mes">
+                      <option value="" ></option>
+                      <option value="Enero" >Enero</option>
+                      <option value="Febrero" >Febrero</option>
+                      <option value="Marzo" >Marzo</option>
+                      <option value="Abril" >Abril</option>
+                      <option value="Mayo" >Mayo</option>
+                      <option value="Junio" >Junio</option>
+                      <option value="Julio" >Julio</option>
+                      <option value="Agosto" >Agosto</option>
+                      <option value="Setiembre" >Setiembre</option>
+                      <option value="Octubre" >Octubre</option>
+                      <option value="Novienbre" >Novienbre</option>
+                      <option value="Diciembre" >Diciembre</option>
+                  </select> <br>                                                     
+                  <label id="ano1" for="ano" class="form-label">Año:</label>
+                  <select id="ano" name="ano">
+                      <option value="" ></option>
+                      <option value="2022" >2022</option>                                
+                  </select>                             
+              </div>                        
+              <div class="mb-2">
+                  <label id="hora1" for="hora" class="form-label">Hora:</label>
+                  <select id="hora" name="hora">
+                      <option value="" ></option>
+                      <option value="9:00 AM" >9:00 Am</option>
+                      <option value="10:00 AM" >10:00 Am</option>
+                      <option value="11:00 AM" >11:00 Am</option>
+                      <option value="12:00 PM" >12:00 PM</option>
+                      <option value="13:00 PM" >13:00 PM</option>
+                      <option value="14:00 PM" >14:00 PM</option>
+                      <option value="15:00 PM" >15:00 PM</option>
+                      <option value="16:00 PM" >16:00 PM</option>
+                      <option value="17:00 PM" >17:00 PM</option>
+                      <option value="18:00 PM" >18:00 PM</option>
+                      <option value="19:00 PM" >19:00 PM</option>
+                      <option value="20:00 PM" >20:00 PM</option>
+                      <option value="21:00 PM" >21:00 PM</option>
+                  </select>
+              </div><br>       
+              <button  class="btn btn-outline-light btn-lg" type="submit"> Enviar E-mail </button><br><br>
+            </form>                    
+            <button  class="btn btn-outline-light btn-lg" onclick="capturar()"> Registrar Reserva </button>
+      </div>
+  </div>
+</div>

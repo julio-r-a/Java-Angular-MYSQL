@@ -1,0 +1,44 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="assets/log.png" width="35" height="35" class="d-inline-block align-top" alt="">
+        SÁTIRA
+    </a>
+</nav>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col my-auto m-4">
+            <br />
+            <img src="assets/log.png" class="rounded-circle" alt="..." width="400px" height="400px">
+            <br />
+        </div>
+        <div class="col bg-dark text-light p-4 m-4" style="border-radius: 25px;">
+            <form  class="form-control-lg">
+                <div class="mb-2">
+                    <h1>Registro</h1>
+                    <label for="">Nombre: </label>
+                    <input [(ngModel)]="cliente.nombres" name="nombres" type="text" class="form-control" required
+                    >
+                </div>
+                <div class="mb-2">
+                    <label for="">Apellidos: </label>
+                    <input [(ngModel)]="cliente.apellidos"  name="apellidos" type="text" class="form-control"/>
+                </div>
+                <div class="mb-2">
+                    <label for="">Celular: </label>
+                    <input [(ngModel)]="cliente.celular"  name="celular" type="text" class="form-control">
+                </div>
+                <div class="mb-2">
+                    <label for="">E-mail: </label>
+                    <input [(ngModel)]="cliente.correo"   name="correo" type="text" class="form-control">
+                </div>
+                <div class="mb-2">
+                    <label for="">Contraseña: </label>
+                    <input [(ngModel)]="cliente.clave"  name="clave" type="password" class="form-control">
+                </div><br>
+                <button (click)="GuardarU()" class="btn btn-danger">Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>

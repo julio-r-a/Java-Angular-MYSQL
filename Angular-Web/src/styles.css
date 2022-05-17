@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/bar.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+#a{
+    color: white;
+}
+#b{
+    color: white;
+    text-align: center;
+}
+#barra{
+    background-color: rgba(0, 0, 0, 0.743);
+    text-align: center;
+}
+#barra1{
+    background-color: black;
+    text-align: center;
+}
+
+#fond{
+    background-attachment: fixed;
+    background-image: url("assets/bar.jpg");
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#cat{
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+
